@@ -14,16 +14,49 @@
 <div id="cap1">
   <h1>Capítulo 1</h1>
 
-  <form action="receber" method="get">
+  <form action="receber.html" method="post">
     <fieldset>
       <legend>Informações Pessoais</legend>
+      Nome: <input type="text" name="nome" value="Renzo"/><br/>
+      Sexo:
+      Masculino <input type="radio" name="sexo" value="m"/>
+      Feminino <input type="radio" name="sexo" value="f" checked="checked"/><br/>
+      Preferencias: Futebol <input type="checkbox" name="preferencias" value="fut"/>
+      Truco <input type="checkbox" name="preferencias" value="truco"/>
     </fieldset>
     <fieldset>
       <legend>Endereço</legend>
+      Estado:
+      <select name="estado">
+        <option value="ac">Acre</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="sp" selected="selected">São Paulo</option>
+      </select>
     </fieldset>
     <button type="submit">Enviar</button>
 
   </form>
+  <table>
+    <thead>
+    <tr>
+      <th>
+        Nome
+      </th>
+      <th>
+        Idade
+      </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Renzo</td>
+      <td>33</td>
+    <tr>
+      <td>John</td>
+      <td>18</td>
+    </tr>
+    </tbody>
+  </table>
   <a href="https://github.com/renzon">
     <img src="img/foto.JPG" width="100px" height="100px"/>
   </a>
