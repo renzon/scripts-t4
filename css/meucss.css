@@ -1,0 +1,19 @@
+h1{
+    font-style: italic;
+    color: orange;
+    padding: 10px 5px 20px 40px;
+    margin: 10px 5px 20px 40px;
+    border: solid #ff0000 10px;
+}
+
+#caph1{
+    text-align: center;
+}
+
+.apagado{
+    text-decoration: line-through;
+}
+.apagado:hover{
+    background-color: red;
+    cursor: hand;
+}

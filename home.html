@@ -4,15 +4,23 @@
 <head>
   <meta charset="UTF-8"/>
   <title>Scripts Fatec</title>
+  <style type="text/css">
+    h1 {
+      text-decoration: underline;
+      color: red;
+
+    }
+  </style>
+  <link type="text/css" href="css/meucss.css" rel="stylesheet" />
 </head>
 <body>
 <div>
-  <h1>Sumário</h1>
-  <a href="#cap1">Capítulo 1</a>
-  <a href="#cap2">Capítulo 2</a>
+  <h1 style="color: white; background-color: black">Sumário</h1>
+  <a href="#cap1" >Capítulo 1</a>
+  <a href="#cap2" class="apagado">Capítulo 2</a>
 </div>
 <div id="cap1">
-  <h1>Capítulo 1</h1>
+  <h1 id="caph1">Capítulo 1</h1>
 
   <form action="receber.html" method="post">
     <fieldset>
@@ -36,7 +44,7 @@
     <button type="submit">Enviar</button>
 
   </form>
-  <table>
+  <table class="apagado">
     <thead>
     <tr>
       <th>
