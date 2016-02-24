@@ -28,13 +28,38 @@ lista.splice(1, 2);
 console.log(lista);
 
 function f(a, b) {
+  if (a === undefined) {
+    a = 3;
+  }
   console.log(a);
   console.log(b);
+  console.log(arguments);
 }
 
-f(1, 2);
 f();
 f(1);
+f(1, 2);
+f(1, 2, 3, 4);
+
+var obj = {'nome': 'Renzo', 'hobbies': ['Futebol', 'Video Gaeme'], 'pai': {'nome': 'Pietro'}};
+console.log(obj.nome);
+console.log(obj['nome']);
+console.log(obj);
+console.log(f());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
