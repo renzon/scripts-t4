@@ -4,7 +4,7 @@
 
 var f=function f(func){
   console.log('Executando f');
-}
+};
 
 console.log(f);
 var g=f;
