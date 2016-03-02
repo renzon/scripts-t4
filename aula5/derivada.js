@@ -9,12 +9,20 @@ function derivar(func) {
 
 }
 
-function reta(x){
-  return  x*x;
+function reta(x) {
+  return 2 * x + 1;
+}
+function parabola(x) {
+  return x * x;
 }
 
-var retaDerivada=derivar(reta);
+var retaDerivada = derivar(reta);
 
 console.log(retaDerivada(0));
 console.log(retaDerivada(1));
+
+var parabolaDerivada = derivar(parabola);
+
+console.log(parabolaDerivada(0));
+console.log(parabolaDerivada(1));
 

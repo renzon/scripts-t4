@@ -1,31 +1,33 @@
-
-
-
-
-var f=function f(func){
+var f = function f(func) {
   console.log('Executando f');
 };
 
 console.log(f);
-var g=f;
-f=1;
+var g = f;
+f = 1;
 console.log(g);
 g();
 
-function h(func){
-  function nova(x){
-    return func(x+1);
+function h(func) {
+  function nova(x) {
+    return func(x + 1);
   }
 
   return nova;
 }
 
-function reta(x){
+function reta(x) {
   return x;
 }
 
-var retaComShift=h(reta);
+var retaComShift = h(reta);
 
 console.log(retaComShift);
 console.log(retaComShift(1));
+
+var count = 0;
+function helloListener() {
+  ++count;
+  console.log('Hello Listener ' + count)
+}
 
