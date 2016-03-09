@@ -1,8 +1,8 @@
 var manadaVirgula = new ManadaVirgula();
 var manadaSustenidaDupla = new ManadaSustenido();
-var animas = [new Cachorro(), new Gato()];
+var animais = [new Cachorro(), new Gato()];
 
-animas.forEach(function (animal) {
+animais.forEach(function (animal) {
   manadaVirgula.adicionar(animal);
   manadaSustenidaDupla.adicionar(animal);
 });
