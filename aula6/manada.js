@@ -10,5 +10,5 @@ animas.forEach(function (animal) {
 // Print Esperado: Au, Miau
 console.log(manadaVirgula.barulhos());
 
-// Print Esperado: Au, Au, Miau, Miau
+// Print Esperado: Au# Au# Miau# Miau
 console.log(manadaSustenidaDupla.barulhos());
