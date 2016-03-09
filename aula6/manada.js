@@ -4,7 +4,7 @@ var animas = [new Cachorro(), new Gato()];
 
 animas.forEach(function (animal) {
   manadaVirgula.adicionar(animal);
-  manadaSustenido.adicionar(animal);
+  manadaSustenidaDupla.adicionar(animal);
 });
 
 // Print Esperado: Au, Miau
